@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  h1{
+    color: white;
+    font-size: medium;
+  }
+p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 8px;
+}
+body{
+    background-color: white;
+}
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.wrapper{
+    width: 30%; 
+    height: 35vh;
+    margin: auto;
+    margin-top: 25px;
+   
+}
+.wrapper div{
+  float: left;
+  width: 33.3%;
+  margin-top: 150px;
+  padding:10px ;
+}
+
+.sedans{
+    height: 100%;
+    background-color: hsl(31, 77%, 53%);
+}
+.suvs{
+    height: 100%;
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    height: 100%;
+    background-color: hsl(170, 100%, 13%);
+}
+button{
+    background-color: white;
+    margin-top: 50px;
+    height: 25px;
+    width: 70px;
+    border-radius: 12.5px;
+    border: 1px solid white;
+    font-size: 10px;
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+}
+img{
+    padding-top: 5px;
+}
+
+.suvs img{
+    margin-left: 20px;
+}
+.luxury img{
+    margin-left: 25px;
+}
